@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace JunaidPK\EnvManager\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class EnvManagerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'env-manager';
 
     public $description = 'My command';
 

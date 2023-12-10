@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace JunaidPK\EnvManager;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class EnvManagerPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'env-manager';
     }
 
     public function register(Panel $panel): void
